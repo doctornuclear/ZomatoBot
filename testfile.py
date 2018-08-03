@@ -314,11 +314,11 @@ def get_rest_details(all_rest_links_un):
 					except:  
 					    print 'Something went wrong...'
 
-					fromaddr = 'automationbots2121@gmail.com'
-					toaddrs  = 'hardik.squarefork@gmail.com'
+					fromaddr = ''
+					toaddrs  = ''
 					msg = mail_body
-					username = 'automationbots2121@gmail.com'
-					password = 'blahblahpassword'
+					username = ''
+					password = ''
 					server = smtplib.SMTP('smtp.gmail.com:587')
 					server.starttls()
 					server.login(username,password)
